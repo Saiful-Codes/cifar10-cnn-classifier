@@ -1,4 +1,4 @@
-# cifar10-cnn-classifier
+# CIFAR-10 CNN Classifier
 
 Convolutional Neural Network implementation for CIFAR-10 image classification using PyTorch, with hyperparameter tuning, structured training pipeline, evaluation utilities, and a deployable Streamlit application.
 
