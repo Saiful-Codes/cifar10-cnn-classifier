@@ -205,3 +205,24 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (avoid pushing CIFAR dataset)
+data/
+*.zip
+*.tar
+*.tar.gz
+
+# Optional: ignore training checkpoints except the final model
+models/*.pth
+!models/cifar10_cnn_best.pth
